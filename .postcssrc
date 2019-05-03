@@ -1,0 +1,11 @@
+{
+  "modules": true,
+  "plugins": {
+    "autoprefixer": {
+      "grid": true
+    },
+    "postcss-modules":{
+      "globalModulePaths":["index.less","theme.less","fonts.less","colors.less"]
+    }
+  }
+}

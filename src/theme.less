@@ -1,0 +1,102 @@
+@import "./colors.less";
+@import "./fonts.less";
+
+@primary-color: #42ace2; //rgb(24, 151, 102); // primary color for all components
+@link-color: #1890ff; // link color
+@success-color: #52c41a; // success state color
+@warning-color: #faad14; // warning state color
+@error-color: #e6601f; // error state color
+
+@font-size-base: 14px; // major text font size
+@heading-color: rgba(0, 0, 0, 0.65); // heading text color
+@text-color: rgba(0, 0, 0, 0.65); // major text color
+@text-color-secondary : rgba(0, 0, 0, .45); // secondary text color
+@disabled-color : rgba(0, 0, 0, .25); // disable state color
+@border-radius-base: 2px; // major border radius
+@border-color-base: #d9d9d9; // major border color
+@box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // major shadow for layers
+@checkbox-size: 20px;
+@font-family: "Roboto", "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+  "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+@body-background: #f4f6f8;
+
+:global {
+  .page-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.collapseWithCircleArrow {
+  .ant-collapse-arrow {
+    border: 4px solid gainsboro;
+    border-radius: 50%;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
+    font-size: 14px !important;
+    display: flex !important;
+    margin-top: 0px !important;
+  }
+}
+
+.circleArrow {
+  border: 4px solid rgba(0, 0, 0, 0.205);
+  border-radius: 50%;
+  padding: 5px;
+  background: @white;
+  background-clip: content-box;
+}
+
+.react-phone-number-input__icon-image {
+  line-height: normal !important;
+  vertical-align: top;
+}
+.react-phone-number-input__phone {
+  border-bottom: none !important;
+}
+
+.ant-form-item-required::before {
+  margin-right: 15px !important;
+}
+
+.ant-tabs-bar {
+  border-bottom: 10px solid white !important;
+}
+
+.ant-tabs-nav-container {
+  height: 60px !important;
+}
+
+.ant-tabs-tab {
+  height: 50px !important;
+  border-radius: 4px 4px 0 0 !important;
+  border: none !important;
+  margin-right: 10px !important;
+}
+
+.ant-tabs-tab-active {
+  height: 60px !important;
+  margin-top: 0px;
+}
+
+.ant-divider-inner-text {
+  // width: 59px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: @cloudy-blue;
+}
+
+.ant-divider-with-text-left {
+  &:before {
+    display: none !important;
+  }
+}
