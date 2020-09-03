@@ -72,7 +72,7 @@
     "recharts": "^1.5.0",
     "redux": "^4.0.1",
     "redux-first-history": "^4.0.0-alpha.7",
-    "serve": "10.1.1",
+    "serve": "10.1.2",
     "styled-components": "^4.2.0",
     "type-zoo": "^3.3.0",
     "uuid": "^3.3.2"
