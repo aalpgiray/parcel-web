@@ -4405,6 +4405,11 @@ froala-editor@2.8.5:
     font-awesome ">=4.4.0"
     jquery ">=1.11.0"
 
+froala-editor@4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/froala-editor/-/froala-editor-4.0.7.tgz#adbb773526d1b218cd7fee2f4db40bb0f40fd042"
+  integrity sha512-V4n9/IkRf0MyCgkvj4CZtaXH0heWwRD2hca/59wdbrSFv6HVIzDe0cBzE2pj6NNUSk8b3EuiCm2P/yDrf8/rTw==
+
 fs-minipass@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-1.2.5.tgz#06c277218454ec288df77ada54a03b8702aacb9d"
